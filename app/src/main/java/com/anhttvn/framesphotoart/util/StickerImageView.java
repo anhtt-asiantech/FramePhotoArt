@@ -59,6 +59,10 @@ public class StickerImageView extends StickerView {
         this.iv_main.setImageURI(Crop.getOutput(result));
     };
 
+    public void setBaselineAlignBottom(boolean isFlip){
+        iv_main.setBaselineAlignBottom(isFlip);
+    }
+
     public Bitmap getImageBitmap(){ return ((BitmapDrawable)this.iv_main.getDrawable()).getBitmap() ; }
 
 }

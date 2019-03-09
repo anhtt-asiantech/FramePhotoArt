@@ -1,6 +1,7 @@
 package com.anhttvn.framesphotoart.ui;
 
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Point;
 import android.graphics.PointF;
@@ -8,6 +9,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -33,7 +35,7 @@ public class Function extends BaseActivity  {
     private Config mConfig;
 
     // value item
-    private int mPosition = 0;
+    private int mPosition = 1;
     // value photo
     private Bitmap bmp;
 
@@ -104,7 +106,11 @@ public class Function extends BaseActivity  {
         return new PointF(x,y);
     }
     public void clickHide(View view){
+       startActivity(new Intent(this, FrameSelect.class));
+    }
 
+    public void clickShow(View view){
+        imgPhoto.setBaselineAlignBottom(false);
     }
 
 

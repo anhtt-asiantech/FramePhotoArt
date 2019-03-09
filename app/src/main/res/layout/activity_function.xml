@@ -49,6 +49,8 @@
             android:id="@+id/img_frame"
             android:contentDescription="@string/app_name"
             android:layout_width="match_parent"
+            android:src="@drawable/a_p"
+
             android:scaleType="fitXY"
             android:layout_height="match_parent" />
     </RelativeLayout>
