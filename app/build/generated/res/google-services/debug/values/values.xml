@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">279184334867-u6e9l64eb05f32tm3d2uv6l00o75kohb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://calligraphy-name-446f3.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">279184334867</string>
+    <string name="google_api_key" translatable="false">AIzaSyAuc4SZP7cpUl81Rb5Q-Kn9FL323s3GgRA</string>
+    <string name="google_app_id" translatable="false">1:279184334867:android:8e82a24985664bb7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAuc4SZP7cpUl81Rb5Q-Kn9FL323s3GgRA</string>
+    <string name="google_storage_bucket" translatable="false">calligraphy-name-446f3.appspot.com</string>
+    <string name="project_id" translatable="false">calligraphy-name-446f3</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/brown"
+    android:padding="2dp">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ads_home"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:adSize="LARGE_BANNER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="clicStart"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/txt_create"
+        android:background="@drawable/custom_round_image"
+        android:src="@drawable/start"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:onClick="clickAlbum"
+            android:background="@drawable/custom_round_image"
+            android:src="@drawable/ic_album_black_48dp"
+            android:contentDescription="@string/app_name"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:background="@drawable/custom_round_image"
+            android:src="@drawable/ic_settings_24dp"
+            android:layout_alignParentRight="true"
+            android:onClick="clickSetting"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/app_name"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

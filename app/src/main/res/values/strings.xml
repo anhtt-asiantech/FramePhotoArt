@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Photo Art Frame</string>
+    <string name="text">Text</string>
+    <string name="dialog_add_text">Text</string>
+    <string name="txt_gallery">Gallery</string>
+    <string name="txt_bg_color">Bg_cl</string>
+    <string name="txt_bg">BG</string>
+    <string name="txt_Save">Save</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_x">x</string>
+    <string name="txt_create">Create</string>
+    <string name="txt_album">Album</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_done">Done</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3840180634112397/6186315543</string>
+    <string name="banner_full_screen">ca-app-pub-3840180634112397/7080471102</string>
+
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_more">More</string>
+    <string name="txt_question">Are you exit app ???</string>
+    <string name="txt_calligraphy_name">Calligraphy Name</string>
+    <string name="txt_text_on_photo">Text on photo</string>
+    <string name="txt_change_id">Change ID</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_ask_finish">Are you delete photo this??</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="link_app">https://play.google.com/store/apps/details?id=com.anhttvn.framesphotoart</string>
+    <string name="setting">Setting</string>
+    <string name="share_app">Share App</string>
+    <string name="gop_y">Feedback</string>
+    <string name="reviews">Reviews</string>
+    <string name="qs_save">Are save photo?</string>
+    <string name="qs_cancel">Are Exit</string>
+</resources>

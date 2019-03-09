@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/header_photo"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_back_detail"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_clear_24dp"
+            android:background="@drawable/custom_round_image"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/txt_album"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/gridView"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:layout_below="@+id/header_photo"
+        android:columnWidth="150dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adview_album"
+        android:layout_width="match_parent"
+        ads:adSize="SMART_BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBaseline="@+id/gridView"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
+

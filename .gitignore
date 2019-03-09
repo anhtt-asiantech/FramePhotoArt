@@ -1,0 +1,8 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/com.anhttvn.cropphoto_anhtt.build
+/captures
