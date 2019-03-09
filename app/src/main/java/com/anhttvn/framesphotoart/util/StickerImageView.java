@@ -2,12 +2,15 @@ package com.anhttvn.framesphotoart.util;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.anhttvn.cropphoto_anhtt.Crop;
 
 
 public class StickerImageView extends StickerView {
@@ -51,6 +54,10 @@ public class StickerImageView extends StickerView {
     }
 
     public void setImageDrawable(Drawable drawable){ this.iv_main.setImageDrawable(drawable); }
+
+    public void setImageUrl (Intent result){
+        this.iv_main.setImageURI(Crop.getOutput(result));
+    };
 
     public Bitmap getImageBitmap(){ return ((BitmapDrawable)this.iv_main.getDrawable()).getBitmap() ; }
 
