@@ -1,18 +1,23 @@
 package com.anhttvn.framesphotoart.ui;
 
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.Point;
 import android.graphics.PointF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
-
-import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
+
+import com.anhttvn.cropphoto_anhtt.Crop;
 import com.anhttvn.framesphotoart.BaseActivity;
 import com.anhttvn.framesphotoart.R;
 
@@ -21,6 +26,7 @@ import com.anhttvn.framesphotoart.util.Config;
 import com.anhttvn.framesphotoart.util.StickerImageView;
 import com.google.android.gms.ads.AdView;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -38,6 +44,7 @@ public class Function extends BaseActivity  {
     private int mPosition = 1;
     // value photo
     private Bitmap bmp;
+    private BroadcatsReciverPhoto mBroadcatsReciverPhoto;
 
     RelativeLayout.LayoutParams parms;
     @Override
@@ -58,6 +65,7 @@ public class Function extends BaseActivity  {
         mConfig = new Config(this);
         mConfig.getPhoto();
         list = mConfig.mListPhoto;
+        mBroadcatsReciverPhoto = new BroadcatsReciverPhoto();
     }
     private void viewItem(){
 
@@ -105,14 +113,70 @@ public class Function extends BaseActivity  {
 
         return new PointF(x,y);
     }
+
+    public void getPhotoSetting(){
+
+    }
+    private class BroadcatsReciverPhoto extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            mPosition = intent.getIntExtra("position",0);
+            viewItem();
+            Point point = new Point();
+            point.set(bmp.getWidth(),bmp.getHeight());
+            getTransparentCenter(bmp,point);
+        }
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(mBroadcatsReciverPhoto);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        IntentFilter intentFilter = new IntentFilter("com.anhttvn.framesphotoart");
+        registerReceiver(mBroadcatsReciverPhoto,intentFilter);
+    }
     public void clickHide(View view){
        startActivity(new Intent(this, FrameSelect.class));
     }
 
     public void clickShow(View view){
-        imgPhoto.setBaselineAlignBottom(false);
+        Crop.pickImage(this);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent result) {
+        if (requestCode == Crop.REQUEST_PICK && resultCode == RESULT_OK) {
+            beginCrop(result.getData());
 
+        } else if (requestCode == Crop.REQUEST_CROP) {
+            handleCrop(resultCode, result);
+        } else {
+            finish();
+        }
+    }
+
+    private void beginCrop(Uri source) {
+        Uri destination = Uri.fromFile(new File(getCacheDir(), "cropped"));
+        Crop.of(source, destination).asSquare().start(this);
+    }
+
+    private void handleCrop(int resultCode, Intent result) {
+        if (resultCode == RESULT_OK) {
+            imgPhoto.setImageUrl(result);
+        } else if (resultCode == Crop.RESULT_ERROR) {
+            Toast.makeText(this, Crop.getError(result).getMessage(), Toast.LENGTH_SHORT).show();
+        } else if (resultCode == RESULT_CANCELED) {
+            finish();
+        }
+        Point point = new Point();
+        point.set(bmp.getWidth(),bmp.getHeight());
+        getTransparentCenter(bmp,point);
+
+    }
 
 }
