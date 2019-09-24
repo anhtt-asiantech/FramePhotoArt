@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:contentDescription="@string/app_name"
         android:id="@+id/img_pager_item"
+
         android:scaleType="fitXY"
         android:layout_above="@+id/rl_detail"
         android:adjustViewBounds="true"/>
@@ -20,24 +21,20 @@
         android:layout_alignParentBottom="true"
         android:background="@android:color/transparent"
         android:layout_height="wrap_content">
-        <ImageView
+        <Button
             android:id="@+id/img_share_detail"
             android:layout_width="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:background="@drawable/custom_round_image"
-            android:contentDescription="@string/app_name"
-            android:layout_margin="10dp"
-            android:padding="10dp"
+            android:background="@drawable/icon_gradient"
+            android:text="Share"
             android:layout_height="wrap_content" />
-        <ImageView
+        <Button
             android:id="@+id/img_delete"
             android:layout_width="wrap_content"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/custom_round_image"
-            android:contentDescription="@string/app_name"
-            android:layout_margin="10dp"
-            android:padding="10dp"
+            android:background="@drawable/icon_gradient"
+            android:text="@string/text_delete"
             android:layout_height="wrap_content" />
     </RelativeLayout>
 </RelativeLayout>

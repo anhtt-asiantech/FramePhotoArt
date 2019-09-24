@@ -7,8 +7,14 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -22,13 +28,18 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/logo_art_app"
+        android:icon="@drawable/logo_app"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3840180634112397~7595813670" />
+
         <activity
-            android:name="com.anhttvn.framesphotoart.Main"
+            android:name="com.anhttvn.framesphotoart.version_2.Main_v2"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +48,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.anhttvn.framesphotoart.ui.Function"
+            android:name="com.anhttvn.framesphotoart.version_2.ui.Function_v2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.anhttvn.framesphotoart.version_2.ui.PhotoArt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.anhttvn.framesphotoart.version_2.ui.Setting_v2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.anhttvn.framesphotoart.version_2.ui.Album_v2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.anhttvn.framesphotoart.version_2.ui.PhotoActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.anhttvn.cropphoto_anhtt.CropImageActivity"
@@ -45,7 +68,8 @@
         <activity
             android:name="com.anhttvn.framesphotoart.ui.FrameSelect"
             android:screenOrientation="portrait" />
-        <activity android:name="com.anhttvn.framesphotoart.ui.Demo" />
+        <activity android:name="com.anhttvn.textinputlibary.Textinput" />
+
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

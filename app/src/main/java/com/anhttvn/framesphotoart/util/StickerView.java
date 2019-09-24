@@ -27,7 +27,7 @@ public abstract class StickerView extends FrameLayout{
     private ImageView iv_scale;
     private ImageView iv_delete;
     private ImageView iv_flip;
-    private ImageView iv_showhide;
+    public ImageView iv_showhide;
 
     // For scalling
     private float this_orgX = -1, this_orgY = -1;
@@ -67,10 +67,10 @@ public abstract class StickerView extends FrameLayout{
         this.iv_flip = new ImageView(context);
         this.iv_showhide = new ImageView(context);
 
-        this.iv_scale.setImageResource(R.drawable.ic_zoom_out_map_black_24dp);
-        this.iv_delete.setImageResource(R.drawable.ic_clear_24dp);
-        this.iv_flip.setImageResource(R.drawable.ic_flip_black_24dp);
-        this.iv_showhide.setImageResource(R.drawable.ic_layers_black_24dp);
+        this.iv_scale.setImageResource(R.drawable.ic_zoom);
+        this.iv_delete.setImageResource(R.drawable.ic_close);
+        this.iv_flip.setImageResource(R.drawable.ic_edit);
+        this.iv_showhide.setImageResource(R.drawable.ic_touch);
         this.setTag("DraggableViewGroup");
         this.iv_border.setTag("iv_border");
         this.iv_scale.setTag("iv_scale");
@@ -143,6 +143,7 @@ public abstract class StickerView extends FrameLayout{
                 if(StickerView.this.getParent()!=null){
                     ViewGroup myCanvas = ((ViewGroup)StickerView.this.getParent());
                     myCanvas.removeView(StickerView.this);
+
                 }
             }
         });
@@ -150,8 +151,6 @@ public abstract class StickerView extends FrameLayout{
 
             @Override
             public void onClick(View view) {
-                Log.v(TAG, "flip the view");
-
                 View mainView = getMainView();
                 mainView.setRotationY(mainView.getRotationY() == -180f? 0f: -180f);
                 mainView.invalidate();
@@ -162,9 +161,12 @@ public abstract class StickerView extends FrameLayout{
             @Override
             public void onClick(View v) {
 
+
             }
         });
     }
+
+
 
     public boolean isFlip(){
         return getMainView().getRotationY() == -180f;
@@ -318,8 +320,7 @@ public abstract class StickerView extends FrameLayout{
                 absX-((View)this.getParent()).getX(),
                 absY-((View)this.getParent()).getY()
         };
-        Log.v(TAG, "getRelativePos absY:"+absY);
-        Log.v(TAG, "getRelativePos relativeY:"+pos[1]);
+
         return pos;
     }
 

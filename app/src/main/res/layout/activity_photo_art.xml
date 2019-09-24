@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nen">
+    <RelativeLayout
+        android:id="@+id/rl_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@drawable/shadows_bg_relativelayout"
+        android:layout_above="@+id/rl_showFunction">
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/share_app"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"/>
+        <com.anhttvn.framesphotoart.util.StickerTextView
+            android:id="@+id/textinput"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+
+            android:textAlignment="center"
+            android:layout_centerInParent="true"/>
+        <com.anhttvn.framesphotoart.util.StickerImageView
+            android:id="@+id/stickerIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_showFunction"
+        android:layout_width="match_parent"
+        android:background="@drawable/shadows_bg_relativelayout"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_above="@+id/scroll_function"
+        android:layout_height="100dp">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ads_qc_3"
+            android:layout_width="match_parent"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            ads:adSize="BANNER"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_item"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="100dp"/>
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/select_frame"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Frame"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon_gradient"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/select_text"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Text"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon_gradient"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/select_icon"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Icon"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon_gradient"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/select_save"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Save"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon_gradient"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/select_close"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Close"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon_gradient"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

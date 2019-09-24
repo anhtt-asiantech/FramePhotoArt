@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Photo Art Frame</string>
+    <string name="app_name">Frame Art</string>
     <string name="text">Text</string>
     <string name="dialog_add_text">Text</string>
     <string name="txt_gallery">Gallery</string>
@@ -39,4 +39,5 @@
     <string name="reviews">Reviews</string>
     <string name="qs_save">Are save photo?</string>
     <string name="qs_cancel">Are Exit</string>
+    <string name="unistall">Unistall</string>
 </resources>

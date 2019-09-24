@@ -18,22 +18,24 @@ public class Config {
     /**
      * get photo from asset
      */
-    public void getPhoto(){
+    public ArrayList<String> getPhoto(){
         try {
             images =mContext.getAssets().list("image");
             mListPhoto = new ArrayList<String>(Arrays.asList(images));
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return mListPhoto;
 
     }
-    public void getIcon(){
+
+    public ArrayList<String> getIcon(){
         try {
-            images =mContext.getAssets().list("icon");
+            images = mContext.getAssets().list("icon");
             mListIcon = new ArrayList<String>(Arrays.asList(images));
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        return  mListIcon;
     }
 }

@@ -1,11 +1,13 @@
 package com.anhttvn.framesphotoart.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 
 import com.anhttvn.framesphotoart.R;
@@ -25,54 +27,43 @@ public class FrameAdapter extends RecyclerView.Adapter implements View.OnClickLi
     private ArrayList<String> mListImages;
     private Context mContext;
     private int mViewShow =0;
-    public FrameAdapter(ArrayList<String> list,Context context){
+    private OnSelectFrame onSelect;
+    public FrameAdapter(ArrayList<String> list,Context context, OnSelectFrame on){
         mContext = context;
         mListImages = list;
+        onSelect = on;
     }
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view;
-        if(mViewShow == 1){
-            view = LayoutInflater.from(mContext).inflate(R.layout.item_quangcao, parent, false);
-            return new QuangCaoViewholder(view);
-        }else{
-            view = LayoutInflater.from(mContext).inflate(R.layout.item_frame_photo, parent, false);
-            return new MyFrameViewHolder(view);
-        }
+           view = LayoutInflater.from(mContext).inflate(R.layout.item_frame_photo, parent, false);
+         return new MyFrameViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if(mListImages != null){
-            if(mViewShow == 1){
-                AdRequest adRequest = new AdRequest.Builder()
-                        .addTestDevice("D7F715D75F72FD215E30ED47E4B8A56C").build();
-                ((QuangCaoViewholder) holder).adview_banner.loadAd(adRequest);
 
-            }else{
                 InputStream inputstream= null;
                 try {
-                    inputstream = mContext.getAssets().open("image/"
-                            +mListImages.get(position));
+
+                        inputstream = mContext.getAssets().open("image/"
+                                +mListImages.get(position));
+
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 Drawable drawable = Drawable.createFromStream(inputstream, null);
                 ((MyFrameViewHolder) holder).mImg_frame.setImageDrawable(drawable);
-                ((MyFrameViewHolder) holder).mCardView.setOnClickListener(this);
-                ((MyFrameViewHolder) holder).mCardView.setTag(position);
-            }
+                ((MyFrameViewHolder) holder).mllClick.setOnClickListener(this);
+                ((MyFrameViewHolder) holder).mllClick.setTag(position);
+
         }
     }
 
     @Override
     public int getItemViewType(int position) {
-        switch (position){
-            case 2: case 9: case 16: case 25:
-                return mViewShow = 1;
-                default:
-                 return mViewShow = 0;
-        }
+       return position;
     }
 
     @Override
@@ -82,28 +73,26 @@ public class FrameAdapter extends RecyclerView.Adapter implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
+        int position = Integer.parseInt(v.getTag() +"");
+        switch (v.getId()){
+            case R.id.rl_photo:
+                onSelect.onSelectFame(position);
 
+        }
     }
 
     public class MyFrameViewHolder extends RecyclerView.ViewHolder{
 
-        public CardView mCardView;
+        public RelativeLayout mllClick;
         public ImageView mImg_frame;
         public MyFrameViewHolder(View view){
             super(view);
-            mCardView = view.findViewById(R.id.card_view);
+            mllClick = view.findViewById(R.id.rl_photo);
             mImg_frame = view.findViewById(R.id.img_frame_photo);
         }
     }
-    public  class QuangCaoViewholder extends RecyclerView.ViewHolder{
-        public AdView adview_banner;
-       // public AdSize adSize;
-        public QuangCaoViewholder(View view){
-            super(view);
-           // adSize = new AdSize(250,200);
-            adview_banner =  view.findViewById(R.id.adview_banner);
-            //adview_banner.setAdSize(adSize);
+    public interface OnSelectFrame{
+        void onSelectFame(int position);
 
-        }
     }
 }
