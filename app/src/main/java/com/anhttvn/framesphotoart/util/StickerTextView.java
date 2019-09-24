@@ -2,7 +2,9 @@ package com.anhttvn.framesphotoart.util;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +34,7 @@ public class StickerTextView extends StickerView{
 
         tv_main = new AutoResizeTextView(getContext());
         //tv_main.setTextSize(22);
-//        tv_main.setTextColor(Color.WHITE);
+        tv_main.setTextColor(Color.BLACK);
 //        tv_main.setGravity(Gravity.CENTER);
 //        tv_main.setTextSize(400);
 //        tv_main.setShadowLayer(4, 0, 0, Color.BLACK);
@@ -52,6 +54,7 @@ public class StickerTextView extends StickerView{
         if(tv_main!=null)
             tv_main.setText(text);
     }
+
 
     public String getText(){
         if(tv_main!=null)

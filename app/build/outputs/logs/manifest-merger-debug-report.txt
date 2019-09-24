@@ -1,20 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+MERGED from [:textinputlibary] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\textinputlibary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:cropphoto_anhtt] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\cropphoto_anhtt\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87fe1bf09a775546c86b0c09fd790bc7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\bcce9088eb4bdf8d549f601a6676accc\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b54fdfa84b95891d89677d8ea879bfea\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-ads:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b5240a80f43bf897e1cf27bfb00c44f3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\df88b257e3193ecef4b7261e13377808\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\63eddd5d24b849a3da08f494746f3e95\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef7803d8b08e8aee5f0e999fcc9b5f45\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1fd675eb392d304dca50fae17087a035\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\43778acc7c010a115901d95f71931e0a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\c694d1b611b36d7c8b04dfe0780791f2\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\371f1fd9c48b9f3f85a9ef7f79d34b9f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4efb1240e424275819cf9d64f95dbd2a\AndroidManifest.xml:17:1-55:12
@@ -34,8 +32,11 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\HungAnh
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\0dd193d3222b502c8a71af07325d1373\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\48ea37ad634ca6bfe0a24d02e1e401c8\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\9a28a18ef66ccce2eb4d92ff98ff1362\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\79ede9da2f3b95142f0d930b857312b5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a1990a384f586632c2651da9abe2053b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\aab728da2a1d8036541387c8b5238104\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\98dd87056f4be59c01c5563b720a62f0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\31b25c88d85cdf11db0cfa11122c139c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\95d6292468abfa0a2c512658cc1594ae\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\0b2da74d533a83b781118844156c3dc8\AndroidManifest.xml:17:1-22:12
@@ -44,38 +45,52 @@ MERGED from [androidx.customview:customview:1.0.0] C:\Users\HungAnh\.gradle\cach
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\d4c827586aedc5dd2dbf9749a2f4b367\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\2254de55f5926e148bf1406a4973ebcd\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\3fff0a06457f085ab6f3b47c1499fc51\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\faeb55876fe24f548eb5bc3ae294ea4f\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\59833ef693dd166ff6bca4d67d069f18\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4ee80b099872e809e3d12de5e3bc35aa\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\992f9841c44eb89853b25eba8fc0d404\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\bb644fa1458b1770ecb141db5ca6ba46\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\46f09ed8eb378555b3e76ebef2e85ccb\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4f7bd6cda36132619859a8526ac549cc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\671761d0ca9c7283cb29afc574788e01\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:1-57:12
 		INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:5:5-84
+	android:required
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:5:59-82
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:5:19-57
+uses-permission#android.permission.CAMERA
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.hardware.camera.autofocus
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:8:22-70
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4efb1240e424275819cf9d64f95dbd2a\AndroidManifest.xml:24:5-79
@@ -89,9 +104,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:
 MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef976f5dd084e2dd0beaf846e6e00bda\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef976f5dd084e2dd0beaf846e6e00bda\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:10:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4efb1240e424275819cf9d64f95dbd2a\AndroidManifest.xml:23:5-67
@@ -105,21 +120,21 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:
 MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef976f5dd084e2dd0beaf846e6e00bda\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef976f5dd084e2dd0beaf846e6e00bda\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:9:5-76
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:13:5-76
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:13:22-73
 application
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:10:5-35:19
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:14:5-55:19
 MERGED from [:cropphoto_anhtt] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\cropphoto_anhtt\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [:cropphoto_anhtt] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\cropphoto_anhtt\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b54fdfa84b95891d89677d8ea879bfea\AndroidManifest.xml:9:5-20
@@ -164,72 +179,104 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\0dd193d3222b502c8a71af07325d1373\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\48ea37ad634ca6bfe0a24d02e1e401c8\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\48ea37ad634ca6bfe0a24d02e1e401c8\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\faeb55876fe24f548eb5bc3ae294ea4f\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\faeb55876fe24f548eb5bc3ae294ea4f\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-base:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\671761d0ca9c7283cb29afc574788e01\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\671761d0ca9c7283cb29afc574788e01\AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:17:9-41
 	android:largeHeap
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:15:9-33
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:19:9-33
 	android:icon
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:12:9-46
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:16:9-42
 	android:allowBackup
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:16:9-40
-activity#com.anhttvn.framesphotoart.Main
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:17:9-24:20
-	android:screenOrientation
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:20:9-40
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:23:13-67
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:17:19-39
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:22:13-69
+activity#com.anhttvn.framesphotoart.version_2.Main_v2
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:screenOrientation
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:24:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:20:13-23:29
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.anhttvn.framesphotoart.ui.Function
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:25:9-27:15
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.anhttvn.framesphotoart.version_2.ui.Function_v2
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:32:9-34:15
 	android:screenOrientation
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:26:13-49
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:33:13-49
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:25:19-46
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:32:19-59
+activity#com.anhttvn.framesphotoart.version_2.ui.PhotoArt
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:35:9-37:15
+	android:screenOrientation
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:35:19-56
+activity#com.anhttvn.framesphotoart.version_2.ui.Setting_v2
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:38:9-40:15
+	android:screenOrientation
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:38:19-58
+activity#com.anhttvn.framesphotoart.version_2.ui.Album_v2
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:41:9-43:15
+	android:screenOrientation
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:41:19-56
+activity#com.anhttvn.framesphotoart.version_2.ui.PhotoActivity
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:44:9-46:15
+	android:screenOrientation
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:44:19-61
 activity#com.anhttvn.cropphoto_anhtt.CropImageActivity
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:28:9-30:15
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:47:9-49:15
 	android:screenOrientation
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:48:13-49
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:28:19-79
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:47:19-79
 activity#com.anhttvn.framesphotoart.ui.FrameSelect
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:31:9-33:15
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:50:9-52:15
 	android:screenOrientation
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:51:13-49
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:31:19-49
-activity#com.anhttvn.framesphotoart.ui.Demo
-ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:34:9-44
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:50:19-49
+activity#com.anhttvn.textinputlibary.Textinput
+ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:53:9-73
 	android:name
-		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:34:19-42
+		ADDED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml:53:19-71
 uses-sdk
 INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
 INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml
+MERGED from [:textinputlibary] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\textinputlibary\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:textinputlibary] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\textinputlibary\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:cropphoto_anhtt] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\cropphoto_anhtt\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:cropphoto_anhtt] E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\cropphoto_anhtt\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87fe1bf09a775546c86b0c09fd790bc7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87fe1bf09a775546c86b0c09fd790bc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\bcce9088eb4bdf8d549f601a6676accc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\bcce9088eb4bdf8d549f601a6676accc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b54fdfa84b95891d89677d8ea879bfea\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b54fdfa84b95891d89677d8ea879bfea\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-ads:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\b5240a80f43bf897e1cf27bfb00c44f3\AndroidManifest.xml:5:5-44
@@ -240,14 +287,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\HungAnh\.gradle\
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\63eddd5d24b849a3da08f494746f3e95\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef7803d8b08e8aee5f0e999fcc9b5f45\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\ef7803d8b08e8aee5f0e999fcc9b5f45\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1fd675eb392d304dca50fae17087a035\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1fd675eb392d304dca50fae17087a035\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\43778acc7c010a115901d95f71931e0a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\43778acc7c010a115901d95f71931e0a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\c694d1b611b36d7c8b04dfe0780791f2\AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\c694d1b611b36d7c8b04dfe0780791f2\AndroidManifest.xml:21:5-23:52
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\371f1fd9c48b9f3f85a9ef7f79d34b9f\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\371f1fd9c48b9f3f85a9ef7f79d34b9f\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a8e20b80230124ab6766fb073aba6a38\AndroidManifest.xml:20:5-44
@@ -286,10 +327,16 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hung
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\48ea37ad634ca6bfe0a24d02e1e401c8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\9a28a18ef66ccce2eb4d92ff98ff1362\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\9a28a18ef66ccce2eb4d92ff98ff1362\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\79ede9da2f3b95142f0d930b857312b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\79ede9da2f3b95142f0d930b857312b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\113c723e779beea674ccce0cac4853b3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a1990a384f586632c2651da9abe2053b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\a1990a384f586632c2651da9abe2053b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\aab728da2a1d8036541387c8b5238104\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\aab728da2a1d8036541387c8b5238104\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\98dd87056f4be59c01c5563b720a62f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\98dd87056f4be59c01c5563b720a62f0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\31b25c88d85cdf11db0cfa11122c139c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\31b25c88d85cdf11db0cfa11122c139c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\95d6292468abfa0a2c512658cc1594ae\AndroidManifest.xml:20:5-44
@@ -306,22 +353,16 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Hu
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\2254de55f5926e148bf1406a4973ebcd\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\3fff0a06457f085ab6f3b47c1499fc51\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\3fff0a06457f085ab6f3b47c1499fc51\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\500ccb19cca332e13b80bffa61d39ccd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\307a855101172554b7272f37720fe6ee\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\faeb55876fe24f548eb5bc3ae294ea4f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\faeb55876fe24f548eb5bc3ae294ea4f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\59833ef693dd166ff6bca4d67d069f18\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\59833ef693dd166ff6bca4d67d069f18\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4ee80b099872e809e3d12de5e3bc35aa\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4ee80b099872e809e3d12de5e3bc35aa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\02fd751fc5c511eee39dccd98268ccc9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\992f9841c44eb89853b25eba8fc0d404\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\992f9841c44eb89853b25eba8fc0d404\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\bb644fa1458b1770ecb141db5ca6ba46\AndroidManifest.xml:20:5-44
@@ -330,6 +371,12 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\HungAnh\.gradle\caches\transfo
 MERGED from [androidx.print:print:1.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\46f09ed8eb378555b3e76ebef2e85ccb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4f7bd6cda36132619859a8526ac549cc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\4f7bd6cda36132619859a8526ac549cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\87d8bb2687ee9ad14022009ac223afb9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\7c2a62f04a393103110cb90b124d9283\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\1bf15ed7fc67dcd636dfa7286e3c179e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\671761d0ca9c7283cb29afc574788e01\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:18.1.0] C:\Users\HungAnh\.gradle\caches\transforms-2\files-2.1\671761d0ca9c7283cb29afc574788e01\AndroidManifest.xml:5:5-44
 INJECTED from E:\LapTrinhApp\Project_Marileon\FramesPhotoArt\app\src\main\AndroidManifest.xml

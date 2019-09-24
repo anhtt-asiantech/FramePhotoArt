@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/FramesPhotoArt.iml" filepath="$PROJECT_DIR$/FramesPhotoArt.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cropphoto_anhtt/cropphoto_anhtt.iml" filepath="$PROJECT_DIR$/cropphoto_anhtt/cropphoto_anhtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textinput/textinput.iml" filepath="$PROJECT_DIR$/textinput/textinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textinputlibary/textinputlibary.iml" filepath="$PROJECT_DIR$/textinputlibary/textinputlibary.iml" />
     </modules>
   </component>
 </project>

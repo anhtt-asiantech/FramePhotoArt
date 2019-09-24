@@ -1,0 +1,4 @@
+#Thu Sep 19 08:32:48 ICT 2019
+base.0=E\:\\LapTrinhApp\\Project_Marileon\\FramesPhotoArt\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

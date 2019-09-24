@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TextinputLibary</string>
+    <string name="txt_edit">Text</string>
+    <string name="txt_size">Size</string>
+    <string name="txt_done">Done</string>
+    <string name="dialog_add_text">INPUT TEXT</string>
+    <string name="txt_frame">Frame</string>
+    <string name="txt_close">Close</string>
+    <string name="txt_cancel">Cancel</string>
+</resources>

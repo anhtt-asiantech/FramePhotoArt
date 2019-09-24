@@ -51,4 +51,11 @@ public class BaseActivity extends Activity {
             }
         });
     }
+    protected boolean checkInterNet(){
+        boolean flag = false;
+        if(InternetConnection.checkConnection(this)){
+           flag = true;
+        }
+        return  flag;
+    }
 }

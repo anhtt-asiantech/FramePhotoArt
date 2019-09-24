@@ -1,39 +1,37 @@
 {
   "project_info": {
-    "project_number": "279184334867",
-    "firebase_url": "https://calligraphy-name-446f3.firebaseio.com",
-    "project_id": "calligraphy-name-446f3",
-    "storage_bucket": "calligraphy-name-446f3.appspot.com"
+    "project_number": "1004581243925",
+    "firebase_url": "https://photo-art-frame-2f7de.firebaseio.com",
+    "project_id": "photo-art-frame-2f7de",
+    "storage_bucket": "photo-art-frame-2f7de.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:279184334867:android:8e82a24985664bb7",
+        "mobilesdk_app_id": "1:1004581243925:android:10554151ad70a50f",
         "android_client_info": {
           "package_name": "com.anhttvn.framesphotoart"
         }
       },
       "oauth_client": [
         {
-          "client_id": "279184334867-u6e9l64eb05f32tm3d2uv6l00o75kohb.apps.googleusercontent.com",
+          "client_id": "1004581243925-k53pg0qgtqpo8bmhvd8m8a843264om18.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAuc4SZP7cpUl81Rb5Q-Kn9FL323s3GgRA"
+          "current_key": "AIzaSyBaI4mr2Y7OALJhBamxtrBUxI4HxmWw65s"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004581243925-k53pg0qgtqpo8bmhvd8m8a843264om18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

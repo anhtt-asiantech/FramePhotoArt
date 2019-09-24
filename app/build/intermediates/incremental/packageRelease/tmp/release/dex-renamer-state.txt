@@ -1,0 +1,4 @@
+#Tue Sep 24 16:52:00 ICT 2019
+base.0=E\:\\LapTrinhApp\\Project_Marileon\\FramesPhotoArt\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

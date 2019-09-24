@@ -56,7 +56,7 @@ public class GridAdapter extends BaseAdapter implements View.OnClickListener {
     public void onClick(View v) {
         int position = Integer.parseInt(v.getTag()+"");
         switch (v.getId()){
-            case R.id.check_select:
+            case R.id.item_img:
                 mPosition = position;
                 notifyDataSetChanged();
                 mOnclick.onClick(mPosition);
@@ -66,7 +66,6 @@ public class GridAdapter extends BaseAdapter implements View.OnClickListener {
 
     private class ViewHolder{
         private ImageView img_icon;
-        private CheckBox cb;
     }
     @Override
     public View getView(int position,  View convertView, ViewGroup parent) {
@@ -75,7 +74,7 @@ public class GridAdapter extends BaseAdapter implements View.OnClickListener {
             convertView = mLayout.inflate(R.layout.custom_book_frame,null);
             holder = new ViewHolder();
             holder.img_icon =  convertView.findViewById(R.id.item_img);
-            holder.cb =  convertView.findViewById(R.id.check_select);
+
             convertView.setTag(holder);
         }else{
             holder = (ViewHolder)convertView.getTag();
@@ -89,8 +88,8 @@ public class GridAdapter extends BaseAdapter implements View.OnClickListener {
         }
         Drawable drawable = Drawable.createFromStream(inputstream, null);
         holder.img_icon.setImageDrawable(drawable);
-        holder.cb.setOnClickListener(this);
-        holder.cb.setTag(position);
+        holder.img_icon.setOnClickListener(this);
+        holder.img_icon.setTag(position);
         return convertView;
     }
     public interface Onclick{

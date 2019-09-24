@@ -1,1 +1,1 @@
-include ':app', ':cropphoto_anhtt'
+include ':app', ':cropphoto_anhtt', ':textinput', ':textinputlibary'

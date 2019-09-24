@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nen2"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header_function"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+       <com.google.android.gms.ads.AdView
+           android:id="@+id/adsFunction"
+           android:layout_width="match_parent"
+           ads:adUnitId="@string/banner_ad_unit_id"
+           ads:adSize="BANNER"
+           android:layout_centerInParent="true"
+           android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/center_function"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/header_function"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/camera"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button_cricle_v2"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="50dp"
+                android:background="@drawable/camera"
+                android:layout_centerInParent="true"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/folder"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button_cricle_v2"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_width="50dp"
+                android:background="@drawable/folder"
+                android:layout_centerInParent="true"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/album"
+            android:layout_below="@+id/folder"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button_cricle_v2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:background="@drawable/setting"
+                android:layout_centerInParent="true"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
