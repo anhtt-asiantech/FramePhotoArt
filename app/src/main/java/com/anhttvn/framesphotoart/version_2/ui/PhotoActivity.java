@@ -39,7 +39,6 @@ public class PhotoActivity extends BaseActivity implements CustomViewPager.Oncli
     private List<Photo> mList = new ArrayList<>();
     private CustomViewPager mAdapter;
     private int currentPage;
-    private AdView ads_detail;
     private int mItem;
 
     @Override
@@ -52,8 +51,6 @@ public class PhotoActivity extends BaseActivity implements CustomViewPager.Oncli
     void init(){
         mView_pager = findViewById(R.id.pager_view);
         mtv_number = findViewById(R.id.tv_number);
-        ads_detail = findViewById(R.id.ads_detail);
-        runAdview(ads_detail);
         getData();
         path = MediaStore.Images.Media.insertImage(getContentResolver(), photo,  "PhotoArt", "description");
         initAdapterViewPager();

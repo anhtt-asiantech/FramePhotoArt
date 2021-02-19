@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FramesPhotoArt.iml" filepath="$PROJECT_DIR$/FramesPhotoArt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cropphoto_anhtt/cropphoto_anhtt.iml" filepath="$PROJECT_DIR$/cropphoto_anhtt/cropphoto_anhtt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/textinput/textinput.iml" filepath="$PROJECT_DIR$/textinput/textinput.iml" />
-      <module fileurl="file://$PROJECT_DIR$/textinputlibary/textinputlibary.iml" filepath="$PROJECT_DIR$/textinputlibary/textinputlibary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FramePhotoArt.iml" filepath="$PROJECT_DIR$/.idea/modules/FramePhotoArt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FramePhotoArt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FramePhotoArt.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cropphoto_anhtt/FramePhotoArt.cropphoto_anhtt.iml" filepath="$PROJECT_DIR$/.idea/modules/cropphoto_anhtt/FramePhotoArt.cropphoto_anhtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textinput/FramePhotoArt.textinput.iml" filepath="$PROJECT_DIR$/.idea/modules/textinput/FramePhotoArt.textinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textinputlibary/FramePhotoArt.textinputlibary.iml" filepath="$PROJECT_DIR$/.idea/modules/textinputlibary/FramePhotoArt.textinputlibary.iml" />
     </modules>
   </component>
 </project>

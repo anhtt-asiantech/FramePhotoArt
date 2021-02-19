@@ -26,7 +26,6 @@ public class Album_v2 extends BaseActivity implements AlbumAdapter.OnClickDetail
 
     GridView mlistPhoto;
     TextView mTv_album;
-    private AdView adview_album;
     private List<Photo> mList = new ArrayList<>();
     private AlbumAdapter mAdapter;
 
@@ -41,8 +40,6 @@ public class Album_v2 extends BaseActivity implements AlbumAdapter.OnClickDetail
     private void init(){
         mlistPhoto = findViewById(R.id.gridView);
         mTv_album = findViewById(R.id.tv_album);
-        adview_album = findViewById(R.id.adview_album);
-        runAdview(adview_album);
         initAdapter();
     }
     private void initAdapter(){

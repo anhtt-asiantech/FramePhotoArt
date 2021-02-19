@@ -27,17 +27,9 @@
             android:textSize="20sp"
             android:layout_height="wrap_content" />
     </RelativeLayout>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/ads_detail"
-        android:layout_width="match_parent"
-        ads:adSize="BANNER"
-        android:layout_below="@+id/rl_header_detail"
-        ads:adUnitId="@string/banner_ad_unit_id"
-        android:layout_height="wrap_content"/>
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager_view"
         android:layout_width="match_parent"
-        android:layout_below="@+id/ads_detail"
         android:layout_height="match_parent"/>
 
 </RelativeLayout>

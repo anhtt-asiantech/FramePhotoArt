@@ -1,4 +1,4 @@
-#Tue Sep 24 16:50:35 ICT 2019
-base.0=E\:\\LapTrinhApp\\Project_Marileon\\FramesPhotoArt\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Fri Feb 19 22:35:15 ICT 2021
+base.0=D\:\\Dev-Android\\FramePhotoArt\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

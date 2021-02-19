@@ -4,17 +4,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
 import com.anhttvn.framesphotoart.BaseActivity;
 import com.anhttvn.framesphotoart.R;
+import com.anhttvn.framesphotoart.util.ChangeFont;
 import com.google.android.gms.ads.AdView;
+import com.google.android.material.button.MaterialButton;
 
 public class Function_v2 extends BaseActivity {
 
-    private RelativeLayout rl_camera, rl_folder,rl_album;
-    private AdView mAdsFunction;
+    private MaterialButton btn_camera,btn_folder,btn_setting;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -23,8 +26,11 @@ public class Function_v2 extends BaseActivity {
         init();
     }
     private void init(){
-        rl_camera = findViewById(R.id.camera);
-        rl_camera.setOnClickListener(new View.OnClickListener() {
+        btn_camera = findViewById(R.id.btn_camera);
+        btn_folder = findViewById(R.id.btn_folder);
+        btn_setting = findViewById(R.id.btn_setting);
+
+        btn_camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),PhotoArt.class);
@@ -33,8 +39,7 @@ public class Function_v2 extends BaseActivity {
             }
         });
         // folder
-        rl_folder = findViewById(R.id.folder);
-        rl_folder.setOnClickListener(new View.OnClickListener() {
+        btn_folder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),PhotoArt.class);
@@ -43,8 +48,7 @@ public class Function_v2 extends BaseActivity {
             }
         });
         //album
-        rl_album = findViewById(R.id.album);
-        rl_album.setOnClickListener(new View.OnClickListener() {
+        btn_setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Setting_v2.class);
@@ -52,8 +56,6 @@ public class Function_v2 extends BaseActivity {
                 startActivity(intent);
             }
         });
-        mAdsFunction = findViewById(R.id.adsFunction);
-        runAdview(mAdsFunction);
     }
 
 }

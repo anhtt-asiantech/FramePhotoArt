@@ -37,14 +37,6 @@
         android:stretchMode="columnWidth"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adview_album"
-        android:layout_width="match_parent"
-        ads:adSize="SMART_BANNER"
-        android:layout_alignParentBottom="true"
-        android:layout_alignBaseline="@+id/gridView"
-        ads:adUnitId="@string/banner_ad_unit_id"
-        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
 

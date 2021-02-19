@@ -14,4 +14,44 @@ public class IconText implements Serializable {
     private Typeface font;
     private int size;
     private EditText editText;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
+
+    public Typeface getFont() {
+        return font;
+    }
+
+    public void setFont(Typeface font) {
+        this.font = font;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public EditText getEditText() {
+        return editText;
+    }
+
+    public void setEditText(EditText editText) {
+        this.editText = editText;
+    }
 }
